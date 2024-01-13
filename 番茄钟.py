@@ -13,10 +13,10 @@ class ArknightsPotatoApp(QWidget):
         self.setWindowTitle('Tomato Timer')
         self.setGeometry(100, 100, 400, 200)
 
-        self.time_left = 25 * 60 
-        self.break_time = 10 * 60 
-        self.paused = False 
-        self.on_break = False 
+        self.time_left = 25 * 60
+        self.break_time = 10 * 60
+        self.paused = False
+        self.on_break = False
 
         self.layout = QVBoxLayout()
 
